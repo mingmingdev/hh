@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:toolbar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fifth.mygroup.trudgedailydemo.activities.SortActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/sorttoolbar"
+            android:id="@+id/sort_toolbar"/>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/sort_tab_bar"
+            style="@style/MyTabLayout"
+            toolbar:tabIndicatorColor="#f00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/sort_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

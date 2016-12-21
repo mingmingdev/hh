@@ -1,0 +1,29 @@
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true"
+        android:state_window_focused="true"
+        android:drawable="@mipmap/toggle_on" />
+
+    <item android:state_selected="false"
+        android:state_window_focused="true"
+        android:drawable="@mipmap/toggle_off"/>
+    <item android:state_selected="true"
+        android:state_window_focused="false"
+        android:drawable="@mipmap/toggle_on" />
+
+    <item android:state_selected="false"
+        android:state_window_focused="false"
+        android:drawable="@mipmap/toggle_off"/>
+
+    <!--<item android:drawable="@mipmap/toggle_off"/>-->
+
+    <!--<item android:state_window_focused="false"-->
+        <!--android:drawable="@mipmap/toggle_off"/>-->
+
+    <!--<item android:state_focused="true"-->
+        <!--android:drawable="@mipmap/toggle_on"/>-->
+
+    <!--<item android:state_focused="false"-->
+        <!--android:state_pressed="true"-->
+        <!--android:drawable="@mipmap/toggle_off"/>-->
+</selector>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">暴走日报</string>
+    <string name="action_search">action_search</string>
+    <string name="action_share">action_share</string>
+    <string name="action_settings">action_settings</string>
+    <string name="action_refresh">刷新</string>
+    <string name="night_style">夜间模式</string>
+    <string name="setting">设置</string>
+    <string name="share">分享</string>
+
+</resources>

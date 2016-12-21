@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.NewsItemActivity">
+    <item android:id="@+id/webViewFlush"
+        android:title="刷新"
+        app:showAsAction="never"/>
+    <item android:id="@+id/webViewSetting"
+        android:title="设置"
+        app:showAsAction="never"/>
+    <item android:id="@+id/webViewOpen"
+        android:title="在浏览器中打开"
+        app:showAsAction="never"/>
+</menu>
